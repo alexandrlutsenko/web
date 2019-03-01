@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web-project';
+  homeTitle: any= require ( "../assets/home.png");
 }
