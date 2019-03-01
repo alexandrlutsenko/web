@@ -1,5 +1,6 @@
 ul{
     width:100%;
+    min-width:1050px ;
 }
 ul li{
     list-style: none;
@@ -17,7 +18,7 @@ li button:hover{
 }
 .content{
     white-space: nowrap;
-    visibility: hidden;
+    /* visibility: hidden; */
     
 }
 .list{
