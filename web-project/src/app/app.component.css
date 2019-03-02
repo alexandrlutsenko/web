@@ -20,7 +20,7 @@ header{
     z-index: 5;
 }
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0%;
     height: 150px;
     text-align: center;
@@ -52,7 +52,8 @@ div {
     width: 15%;
 }
 .forum{
-    width:10%;
+
+    width: 10%;
 }
 .guideBook{
     width: 18%;
