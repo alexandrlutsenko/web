@@ -7,7 +7,7 @@ import { GuideComponent } from './guide/guide.component';
 const routes: Routes = [
   {
     // path: 'faq', component: FaqComponent
-    path: 'education', component: EducationComponent,
+    path: 'education', component: EducationComponent
   },
   {
     path: 'guide', component: GuideComponent
