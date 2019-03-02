@@ -10,4 +10,5 @@ declare var require: any;
 export class AppComponent {
   title = 'web-project';
   homeTitle: any= require ( "../assets/home.png");
+  back: any= require ( "../assets/ed_back.png");
 }
