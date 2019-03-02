@@ -1,0 +1,23 @@
+#greeting{
+    position: relative;
+    /* left:950px; */
+    top:95px;
+}
+#picture{
+    position: absolute;
+    top:95px;
+    right:120%;
+    
+   
+}
+#motivation{
+    position: relative;
+     top:200px;
+    /*left:660px; */
+}
+#start{
+    size:30px;
+    position: relative;
+    top:300px;
+    
+}
