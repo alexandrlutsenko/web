@@ -38,4 +38,7 @@ li button:hover{
 *{
     font-family: 'Jura';
 }
-
+div{
+    min-height: 900px;
+    border: 1px solid black;
+}
