@@ -2,11 +2,11 @@
 .section{
     position: relative;
     display: block;
-    border: 1px solid red;
+    border: 0px solid red;
     margin-top: 20px;
 }
 .titlePart{
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     height: 30px;
     min-height: 30px;
     background-color: #141414;
@@ -23,13 +23,13 @@
 }
 .common{
     position: relative;
-    border: 1px solid blue;
+    border: 0px solid blue;
     min-width: 700px;
 }
 .iconPart{
     position: relative;
     display: inline-block;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     height: 60px;
 }
 .iconPart p{
@@ -38,7 +38,7 @@
 .textPart{
     position: relative;
     display: inline-block;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .textPart a{
     position: relative;
@@ -54,7 +54,7 @@
     /* position: relative; */
     padding-bottom: 150px;
     min-height: 700px;
-    border: 2px solid red;
+    border: 0px solid red;
     min-width: 1000px;
     /* margin-bottom: 180px; */
 }

@@ -47,6 +47,7 @@ button:hover{
 #homeSt{
     min-height: 700px;
     margin-top: 60px;
+
 }
 
 #main{
@@ -60,3 +61,13 @@ button:hover{
     bottom:250px;
 }
 
+#main{
+    text-align: center;
+    /* border:yellow 6px solid; */
+    width: 500px;
+    min-width: 520px;
+    display: inline;
+    float: right;
+    position: relative;
+    bottom:250px;
+}

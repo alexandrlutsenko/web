@@ -1,5 +1,4 @@
 
-
 #greeting{
     border: 1px lightgray solid;
     border-radius: 40px;
@@ -50,6 +49,34 @@ button:hover{
 #homeSt{
     min-height: 700px;
     margin-top: 60px;
+
+}
+
+#main{
+    text-align: center;
+    /* border:yellow 6px solid; */
+    width: 500px;
+    min-width: 520px;
+    display: inline;
+    float: right;
+    position: relative;
+    bottom:250px;
+}
+#search_input{
+    position: relative;
+    
+    font-style:italic; 
+    outline-width: 0px;
+    outline:none;
+}
+input{
+    border-radius: 5px;
+    width:550px;
+    border: none;
+    margin-bottom: 60px;
+    padding-left:10px;
+    height:40px;
+
 }
 
 #main{
@@ -77,4 +104,3 @@ input{
     padding-left:10px;
     height:40px;
 }
-
