@@ -79,11 +79,4 @@ div {
 p img{
    padding-right:20px; 
 }
-#homeLog{
-    padding-top:3px;
-    width: 70px;
 
-}
-#homeLog:hover{
-    opacity:0.8;
-}
