@@ -22,7 +22,7 @@ header{
 footer{
     position: absolute;
     bottom: 0%;
-    height: 200px;
+    height: 150px;
     text-align: center;
     z-index: 4;
 }
