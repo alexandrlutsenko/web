@@ -1,0 +1,28 @@
+#movies{
+    position: absolute;
+    top: 60px;
+    width: 100%
+}
+
+#tvs{
+    position: absolute;
+}
+
+#mHead{
+    text-align: center;
+    background-color: #141852;
+    color: rgb(226, 212, 212);
+    border: 2px solid #141852;
+    border-radius: 15px;
+}
+
+#mBody{
+    min-height: 300px;
+    border: 2px solid #141852;
+    border-radius: 15px;
+}
+
+*{
+    font-family: 'Jura';
+}
+
