@@ -12,7 +12,7 @@ ul li{
     height: 40px;
     border-radius: 10px;
     border:1px darkblue solid;
-    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+    background:linear-gradient(to right,rgba(45, 48, 66, 0.801),#03041fc2);
     color:lightblue;
 }
 li button:hover{
@@ -24,7 +24,6 @@ li button:hover{
 .content{
     white-space: nowrap;
     /* visibility: hidden; */
-    
 }
 .list{
     position: absolute;

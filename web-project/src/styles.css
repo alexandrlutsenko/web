@@ -3,4 +3,10 @@
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif; 
     font-size: 18px;
     font-weight: 200; 
+    font-family: 'Jura';
+}
+
+html {
+    position: relative;
+    min-height: 100%;
 }

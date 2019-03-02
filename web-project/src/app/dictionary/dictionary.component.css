@@ -1,0 +1,68 @@
+#dictionary_greeting{
+    font-size: 22px;
+    position: relative;
+    top:100px;
+    border: 1px #444343 solid;
+    border-radius: 40px;
+    padding:20px;
+    background: linear-gradient(to top, rgba(87, 95, 154, 0.379), rgba(255, 255, 255, 0.735));
+}
+#quote{
+    position: relative;
+    top:105px;
+    font-size: 18px;
+    color:gray;
+}
+#picture{
+    position: absolute;
+    top:95px;
+    right:110%; 
+}
+#picture img{
+    border-radius: 15px;
+    box-shadow:  20px 20px rgba(138, 136, 136, 0.283);
+}
+#search_input{
+     position: relative;
+     top:110px;
+     font-style:italic; 
+     outline-width: 0px;
+     outline:none;
+}
+input{
+    border-radius: 5px;
+    width:550px;
+}
+*:focus {
+    outline: none;
+}
+#search_button{
+    size:30px;
+    position: relative;
+    top:140px;
+}
+
+*{
+    font-family:'Jura';
+    font-size:20px;
+    font-weight: bold;
+}
+button{
+  width:230px;
+  height: 40px;
+  border-radius: 10px;
+  border:1px darkblue solid;
+  background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+  color:lightblue;
+}
+button:hover{
+    width:240px;
+    height: 45px;
+    outline-width: 0px;
+    outline:none;  
+}
+#homeSt{
+    min-height: 700px;
+    top: 60px;
+}
+
