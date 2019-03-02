@@ -2,22 +2,51 @@
     position: relative;
     /* left:950px; */
     top:95px;
+    border: 1px lightgray solid;
+    border-radius: 40px;
+    padding:10px;
+    background: linear-gradient(to top, rgba(87, 95, 154, 0.379), rgba(255, 255, 255, 0.735));
+
 }
 #picture{
     position: absolute;
     top:95px;
-    right:120%;
-    
+    right:110%;
    
+}
+#picture img{
+    border-radius: 15px;
+    box-shadow:  20px 20px rgba(138, 136, 136, 0.283);
 }
 #motivation{
     position: relative;
-     top:200px;
+     top:130px;
+     font-style:italic; 
     /*left:660px; */
 }
 #start{
     size:30px;
     position: relative;
-    top:300px;
+    top:200px;
+    
+}
+*{
+    font-family:'Jura';
+    font-size:20px;
+    font-weight: bold;
+}
+button{
+width:230px;
+height: 40px;
+border-radius: 10px;
+border:1px darkblue solid;
+background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+color:lightblue;
+}
+button:hover{
+    width:240px;
+    height: 45px;
+    outline-width: 0px;
+    outline:none;
     
 }
