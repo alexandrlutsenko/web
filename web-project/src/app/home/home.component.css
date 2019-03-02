@@ -6,6 +6,7 @@
     border-radius: 40px;
     padding:10px;
     background: linear-gradient(to top, rgba(87, 95, 154, 0.379), rgba(255, 255, 255, 0.735));
+    min-width: 600px;
 
 }
 #picture{
@@ -34,7 +35,6 @@
 *{
     font-family:'Jura';
     font-size:20px;
-    font-weight: bold;
 }
 button{
   width:230px;

@@ -23,8 +23,9 @@ footer{
     position: relative;
     bottom: 0%;
     height: 150px;
-    text-align: center;
+    text-align: left;
     z-index: 4;
+    
 }
 /* верх не трогать */
 
@@ -35,7 +36,10 @@ footer{
     max-height: 100px;
 }
 
-.additional{
+.additional div{
+    border:none;
+    text-align: center;
+    
     /* position: relative; */
 }
 div {
@@ -94,5 +98,24 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    
+    
+}
+.additional  p a{
+    font-size: 20px;
+    
+}
+#info{
+    position: relative;
+    top:-330px;
+    width: 400px;
+    height: 250px;
+    z-index: 3;
+    border: 1px black solid;
+    background-image:url(/assets/back.png);
+    color:rgb(87, 83, 83);
+    font-size: 16px;
+    border-radius: 10px;
+    visibility: hidden;
     height: 150px;
 }
