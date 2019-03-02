@@ -22,12 +22,8 @@ form{
     border:1px darkblue solid;
     background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
     color:lightblue;
-  }
-
-  *{
-      font-family:'Jura';
-  }
-  img{
+}
+img{
     position: relative;
     float: right;
 }
