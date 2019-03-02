@@ -56,7 +56,6 @@ div {
     width: 15%;
 }
 .forum{
-
     width: 10%;
 }
 .guideBook{
@@ -76,7 +75,6 @@ div {
     /* position: relative; */
     padding: 10px;
 }
-
 *{
     font-size: 25px;
     font-weight: 100;
@@ -90,7 +88,15 @@ p img{
 .t{
     border: 1px solid yellow;
     position: relative;
-    min-height: 700px;
+    min-height: 50px;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     
     
@@ -111,4 +117,5 @@ p img{
     font-size: 16px;
     border-radius: 10px;
     visibility: hidden;
+    height: 150px;
 }
