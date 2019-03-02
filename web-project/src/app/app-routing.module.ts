@@ -8,6 +8,7 @@ import {HomeComponent} from './home/home.component';
 import { DictionaryComponent } from './dictionary/dictionary.component';
 import { MaterialsComponent } from './materials/materials.component';
 import { ContactComponent } from './contact/contact.component';
+import { ForumComponent } from './forum/forum.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,9 @@ const routes: Routes = [
   },
   {
     path: 'contacts', component: ContactComponent
+  },
+  {
+    path: 'forum',component:ForumComponent
   }
 ];
 
