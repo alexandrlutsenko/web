@@ -1,0 +1,33 @@
+input,textarea{
+    width:400px;
+    border-radius: 20px;
+    border:none;
+    height: 40px;
+    padding:10px;
+}
+label{
+    margin:5px;
+}
+
+form{
+    display: block;
+}
+#text{
+    height: 200px;
+    
+}
+#submit{
+    border-radius: 10px;
+    padding-top:5px;
+    border:1px darkblue solid;
+    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+    color:lightblue;
+  }
+
+  *{
+      font-family:'Jura';
+  }
+  img{
+    position: relative;
+    float: right;
+}

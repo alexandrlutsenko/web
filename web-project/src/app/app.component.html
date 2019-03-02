@@ -12,7 +12,7 @@
       <p class="inp"><a href="/guide">Путеводитель</a></p> 
     </div>
     <div class="dictionary general">
-      <p class="inp"><a href="">Словарь</a></p>
+      <p class="inp"><a href="/dictionary">Словарь</a></p>
     </div>
     <div class="materials general">
       <p class="inp"><a href="">Материалы</a></p>
@@ -35,19 +35,29 @@
   <div class="main additional">
     <div class="logo general">
       <img src="assets/icon.png" width=80px; alt="Logotip">
+      <p>© 2019 EasyEng</p>
     </div>
     <div class="report general">
-     <p><a href="#">Написать</a></p>
+     <p><a href="/contacts">Написать</a></p>
     </div>
     <div class="about general">
       <p><a href="#">О нас</a></p>
+      <p id="info">EasyEng - это сайт, который поможет Вам познакомиться с английским языком.<br> На нашем сайте Вы можете изучать язык, его историю, используя разного рода медиа, начиная с грамматических таблиц, и заканчивая фильмами на иностраннном языке</p>
     </div>
     <div class="config general">
       <p><a href="#">Настройки</a></p>
     </div>
-    <div class="inf general">
-      <p><a href="./faq">F.A.Q</a></p>
-    </div>
+    <div class="settings general">
+        <select style="visibility: hidden">
+          <option disabled value="">Выберите цвет:</option>
+          <option value="1">BLUE</option>
+          <option value="2"> RED</option>
+          <option value="3"> GREEN</option>
+          <option value="4"> PURPLE</option>
+          
+        </select>
+      </div>
+    
   </div>
 </footer>
 <router-outlet></router-outlet>
