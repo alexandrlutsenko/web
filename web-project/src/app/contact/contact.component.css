@@ -24,6 +24,10 @@ form{
     color:lightblue;
 }
 img{
-    position: relative;
-    float: right;
+    position: absolute;
+    /* float: right; */
+    left: 440px;
+}
+footer{
+    /* box-sizing: border-box; */
 }

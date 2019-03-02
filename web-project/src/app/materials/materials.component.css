@@ -1,11 +1,10 @@
 #movies{
-    position: absolute;
-    top: 60px;
-    width: 100%
+    position: relative;
+    width: 100%;
 }
 
 #tvs{
-    position: absolute;
+    position: relative;
 }
 
 #mHead{
@@ -20,6 +19,8 @@
     min-height: 300px;
     border: 2px solid #141852;
     border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 *{
