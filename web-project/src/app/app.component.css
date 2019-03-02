@@ -25,6 +25,7 @@ footer{
     height: 150px;
     text-align: left;
     z-index: 4;
+
     
 }
 /* верх не трогать */
@@ -98,6 +99,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    min-width: 1300px;
     
     
 }
