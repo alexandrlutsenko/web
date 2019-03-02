@@ -8,7 +8,9 @@ ul li{
     padding: 3px;
 }
  li button{
-    width:230px;
+    width:140px;
+    height: 30px;
+    width:170px;
     height: 40px;
     border-radius: 10px;
     border:1px darkblue solid;
@@ -18,26 +20,6 @@ ul li{
 li button:hover{
     background-color: rgba(137, 43, 226, 0.253)
 }
-#articlesL, #speechPartsL,#sentencePartsL,#sentenceTypesL,#punctuationL{
-    visibility: hidden;
-}
-.content{
-    white-space: nowrap;
-    /* visibility: hidden; */
-    
-}
-.list{
-    position: absolute;
-}
-.content{
-    position: absolute;
-    margin-top:80px;
-}
 *{
     font-family: 'Jura';
 }
-div{
-    min-height: 700px;
-    border: 1px solid black;
-}
-
