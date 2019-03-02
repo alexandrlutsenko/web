@@ -25,9 +25,11 @@ form{
 }
 img{
     position: absolute;
+
     /* float: right; */
     left: 440px;
 }
 footer{
     /* box-sizing: border-box; */
+
 }
