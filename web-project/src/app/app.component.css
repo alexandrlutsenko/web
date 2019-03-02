@@ -51,6 +51,9 @@ div {
     vertical-align: middle;
     width: 15%;
 }
+.forum{
+    width:10%;
+}
 .guideBook{
     width: 18%;
 }
@@ -79,4 +82,9 @@ div {
 p img{
    padding-right:20px; 
 }
-
+.t{
+    border: 1px solid yellow;
+    position: relative;
+    min-height: 700px;
+    width: 100%;
+}
