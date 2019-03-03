@@ -13,3 +13,6 @@ html {
 .general{
     color: rgb(226, 212, 212);
 }
+button,input,textarea:focus{
+    outline: none;
+}
