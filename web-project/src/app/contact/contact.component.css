@@ -24,6 +24,6 @@ form{
     color:lightblue;
 }
 img{
-    position: relative;
-    float: right;
+    position: absolute;
+    left: 440px;
 }

@@ -1,12 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    font-family: 'Times New Roman', Arial, Helvetica, sans-serif; 
-    font-size: 18px;
     font-weight: 200; 
-    font-family: 'Jura';
+    font-family: 'Jura',sans-serif,serif;
+    font-size: 20px;
 }
-
 html {
     position: relative;
     min-height: 100%;
 }
+.general{
+    color: rgb(226, 212, 212);
+    /* font-size: 25px; */
+}
+button,input,textarea:focus{
+    outline: none;
+}
+/* То что ниже на страницах: обучение путеводитель */
+li button:hover{
+    background-color: rgba(137, 43, 226, 0.253)
+}
+li button{
+    height: 40px;
+    border-radius: 10px;
+    border:1px darkblue solid;
+    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+    color:lightblue;
+}
+button{
+    height: 40px;
+    border-radius: 10px;
+    border:1px darkblue solid;
+    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+    color:lightblue;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 3px;
+}
+ul{
+    width:100%;
+    min-width:1240px ;
+}
+/* То что ниже: основной блок контента на всех страницах */
+.mainBlockConfig{
+    position: relative;
+    padding-bottom: 200px;
+    width: 400px;
+    min-width: 700px;
+    left: 5%;
+}
+

@@ -3,12 +3,10 @@ header,footer{
     left: 0%;
     width: 100%;
     box-sizing: border-box;
-    min-width: 1050px;
+    min-width: 1300px;
     height: auto;
     display: block;
-    /* border: 1px solid blue; */
     background: rgb(22, 22, 22);
-    /* background: black; */
     background-color: #141852;
 }
 a{
@@ -20,34 +18,31 @@ header{
     z-index: 5;
 }
 footer{
-    position: relative;
+    position: absolute;
     bottom: 0%;
     height: 150px;
     text-align: left;
-    z-index: 4;
-    
+    z-index: 4;   
+    /* left: 0; */
+    /* width: 100%; */
+    /* min-width: 1300px; */
 }
-/* верх не трогать */
 
 .main{
     width: 100%;
     position: relative;
-    /* display: block; */
     max-height: 100px;
 }
 
 .additional div{
     border:none;
     text-align: center;
-    
-    /* position: relative; */
 }
 div {
     position: relative;   
     border-right: 1px solid rgba(245, 245, 245, 0.719);
     min-width: 100px;
     display: inline-block;
-    /* height: 100%; */
 }
 .general {
     height: 60px;
@@ -71,39 +66,29 @@ div {
     float: right;
     width: 10%;
 }
+.home:hover{
+    opacity: 0.7;
+}
 .inp{
-    /* position: relative; */
     padding: 10px;
 }
 *{
     font-size: 25px;
     font-weight: 100;
-    color:lightgray;
-    font-family: 'Jura';
-    /* color: white; */
+    /* color:lightgray; */
+    /* font-family: 'Jura'; */
 }
 p img{
    padding-right:20px; 
 }
 .t{
-    border: 1px solid yellow;
+    /* border: 0px solid yellow; */
     position: relative;
     min-height: 50px;
     width: 100%;
-    /* height: 100vh; */
 }
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    
-    
-}
-.additional  p a{
+.additional p a{
     font-size: 20px;
-    
 }
 #info{
     position: relative;
@@ -118,4 +103,43 @@ footer {
     border-radius: 10px;
     visibility: hidden;
     height: 150px;
+}
+.settings {
+    background-color: #050724;
+    z-index: 10;
+    height: 42px;
+    border-radius: 20px;
+    
+  }
+.settings select {  
+    outline: none;
+    background: transparent;
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    border-radius: 20px;
+    /* margin: 0px; */
+    display: block;
+    width: 100%;
+    padding: 6px 50px 15px 10px;
+    height:42px;
+    font-size: 17px;
+    color: rgba(221, 221, 221, 0.781);
+}
+.settings:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    line-height: 38px;
+    content: "∧";
+    color: rgb(209, 207, 212);
+    font-size: 25px;
+    padding-right:6px;
+    border-left: 1px solid rgb(164, 161, 170);
+    z-index: -1;
+}
+.settings-option::before{
+  background-color:blanchedalmond;
 }

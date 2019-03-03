@@ -2,35 +2,36 @@
 .section{
     position: relative;
     display: block;
-    border: 1px solid red;
+    border: 0px solid gray;
+    border-radius: 30px;
     margin-top: 20px;
 }
 .titlePart{
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     height: 30px;
     min-height: 30px;
     background-color: #141414;
     color: lightgray;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    /* border: 1px solid #535353; */
+    border-radius: 10px;
 }
 .titlePart p{
     position: relative;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 0px;
     left: 10px;
 }
 .common{
     position: relative;
-    border: 1px solid blue;
+    border: 0px solid blue;
     min-width: 700px;
+    padding-left: 20px;
 }
 .iconPart{
     position: relative;
     display: inline-block;
-    border: 1px solid yellow;
+    border: 0px solid yellow;
     height: 60px;
+    margin-right:10px;
 }
 .iconPart p{
     top: 0px;
@@ -38,27 +39,25 @@
 .textPart{
     position: relative;
     display: inline-block;
-    border: 1px solid red;
+    border: 0px solid red;
 }
-.textPart a{
+.textPart a, .textPart p{
     position: relative;
     top: 20px;
 }
-.textPart p{
+/* .textPart p{
     position: relative;
     top: 20px;
-    /* top: 100%; */
-}
+} */
 
 #homeSt1{
-    /* position: relative; */
     padding-bottom: 150px;
     min-height: 700px;
-    border: 2px solid red;
+    border: 0px solid red;
     min-width: 1000px;
-    /* margin-bottom: 180px; */
 }
-
+/* 
 .wrapper{
     position: relative;
-}
+    left: 5%;
+} */
