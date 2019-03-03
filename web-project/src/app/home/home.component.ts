@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare var require: any;
+declare var require:any;
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  bigben: any=require("../../assets/bigben.png");
+bigben: any=require("../../assets/bigben.png");
+  
 
 }
