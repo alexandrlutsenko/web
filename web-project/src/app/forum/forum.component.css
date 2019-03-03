@@ -16,7 +16,7 @@
 }
 .titlePart p{
     position: relative;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 0px;
     left: 10px;
 }
@@ -33,7 +33,6 @@
     height: 60px;
     margin-right:10px;
 }
-
 .iconPart p{
     top: 0px;
 }
@@ -42,14 +41,14 @@
     display: inline-block;
     border: 0px solid red;
 }
-.textPart a{
+.textPart a, .textPart p{
     position: relative;
     top: 20px;
 }
-.textPart p{
+/* .textPart p{
     position: relative;
     top: 20px;
-}
+} */
 
 #homeSt1{
     padding-bottom: 150px;
@@ -57,8 +56,8 @@
     border: 0px solid red;
     min-width: 1000px;
 }
-
+/* 
 .wrapper{
     position: relative;
     left: 5%;
-}
+} */

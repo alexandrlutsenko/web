@@ -3,7 +3,7 @@ header,footer{
     left: 0%;
     width: 100%;
     box-sizing: border-box;
-    min-width: 1050px;
+    min-width: 1300px;
     height: auto;
     display: block;
     background: rgb(22, 22, 22);
@@ -23,13 +23,10 @@ footer{
     height: 150px;
     text-align: left;
     z-index: 4;   
-    left: 0;
-    width: 100%;
-    min-width: 1300px;
+    /* left: 0; */
+    /* width: 100%; */
+    /* min-width: 1300px; */
 }
-
-/* верх не трогать */
-
 
 .main{
     width: 100%;
@@ -40,7 +37,6 @@ footer{
 .additional div{
     border:none;
     text-align: center;
-    
 }
 div {
     position: relative;   
@@ -79,22 +75,20 @@ div {
 *{
     font-size: 25px;
     font-weight: 100;
-    color:lightgray;
-    font-family: 'Jura';
+    /* color:lightgray; */
+    /* font-family: 'Jura'; */
 }
 p img{
    padding-right:20px; 
 }
 .t{
-    border: 0px solid yellow;
+    /* border: 0px solid yellow; */
     position: relative;
     min-height: 50px;
     width: 100%;
 }
-
-.additional  p a{
+.additional p a{
     font-size: 20px;
-    
 }
 #info{
     position: relative;
@@ -117,8 +111,7 @@ p img{
     border-radius: 20px;
     
   }
-  .settings select {
-    
+.settings select {  
     outline: none;
     background: transparent;
     /* -webkit-appearance: none;
@@ -132,11 +125,8 @@ p img{
     height:42px;
     font-size: 17px;
     color: rgba(221, 221, 221, 0.781);
-    
-    
-    
-  }
-  .settings:after {
+}
+.settings:after {
     position: absolute;
     right: 0;
     top: 0;
@@ -149,9 +139,7 @@ p img{
     padding-right:6px;
     border-left: 1px solid rgb(164, 161, 170);
     z-index: -1;
-  }
-  .settings-option::before{
-      background-color:blanchedalmond;
-
-
-  }
+}
+.settings-option::before{
+  background-color:blanchedalmond;
+}

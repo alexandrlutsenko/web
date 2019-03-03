@@ -1,23 +1,23 @@
-ul{
+/* ul{
     width:100%;
     min-width:1240px ;
-}
-ul li{
+} */
+/* ul li{
     list-style: none;
     display: inline;
     padding: 3px;
-}
- li button{
+} */
+li button{
     width:230px;
-    height: 40px;
+    /* height: 40px;
     border-radius: 10px;
     border:1px darkblue solid;
     background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
-    color:lightblue;
+    color:lightblue; */
 }
-li button:hover{
+/* li button:hover{
     background-color: rgba(137, 43, 226, 0.253)
-}
+} */
 #articlesL, #speechPartsL,#sentencePartsL,#sentenceTypesL,#punctuationL{
     visibility: hidden;
 }
@@ -31,9 +31,6 @@ li button:hover{
 .content{
     position: absolute;
     margin-top:80px;
-}
-*{
-    font-family: 'Jura';
 }
 div{
     min-height: 700px;
