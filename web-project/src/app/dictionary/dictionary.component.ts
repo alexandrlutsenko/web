@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare var require: any;
 @Component({
   selector: 'app-dictionary',
   templateUrl: './dictionary.component.html',
@@ -12,4 +12,5 @@ export class DictionaryComponent implements OnInit {
   ngOnInit() {
   }
 
+  engRus: any=require("../../assets/eng-rus.png");
 }

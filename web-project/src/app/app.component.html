@@ -3,7 +3,7 @@
 <header>
   <div class="main">
     <div class="logo general">
-      <p><img src="/assets/icon.png" width=80px>EasyEng</p>
+      <p><img src="{{icon}}" width=80px>EasyEng</p>
     </div>
     <div class="learn general">
       <p class="inp"><a href="/education">Обучение</a></p>
@@ -19,11 +19,10 @@
     </div>
     <div class="forum general">
       <p class="inp"><a href="/forum">Форум</a></p>
-
     </div>
     <div class="home general">
      <!-- <p><img src="{{homeTitle}}" alt="Домой"></p> -->
-      <p><a href=""><img src="{{homeTitle}}" alt="Домой"></a></p>
+      <p class="inp"><a href=""><img src="{{homeTitle}}" alt="Домой" width="60px;"></a></p>
     </div>
   </div>
   
@@ -34,7 +33,7 @@
 <footer>
   <div class="main additional">
     <div class="logo general">
-      <img src="assets/icon.png" width=80px; alt="Logotip">
+      <img src="{{icon}}" width=80px; alt="Logotip">
       <p>© 2019 EasyEng</p>
     </div>
     <div class="report general">
@@ -54,10 +53,9 @@
           <option value="2"> RED</option>
           <option value="3"> GREEN</option>
           <option value="4"> PURPLE</option>
-          
         </select>
       </div>
-    
+
   </div>
 </footer>
 <router-outlet></router-outlet>

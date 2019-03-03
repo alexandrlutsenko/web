@@ -11,4 +11,5 @@ export class AppComponent {
   title = 'web-project';
   homeTitle: any= require ( "../assets/home.png");
   back: any= require ( "../assets/ed_back.png");
+  icon: any=require("../assets/icon.png");
 }

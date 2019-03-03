@@ -27,10 +27,6 @@
     size:30px;
 }
 
-*{
-    font-family:'Jura';
-    font-size:20px;
-}
 button{
   width:230px;
   height: 40px;
@@ -57,7 +53,7 @@ button:hover{
     /* border:yellow 6px solid; */
     width: 500px;
     min-width: 520px;
-    display: inline;
+    /* display: inline; */
     float: right;
     position: relative;
     bottom:250px;
@@ -84,7 +80,7 @@ input{
     /* border:yellow 6px solid; */
     width: 500px;
     min-width: 520px;
-    display: inline;
+    /* display: inline; */
     float: right;
     position: relative;
     bottom:250px;
