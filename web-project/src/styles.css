@@ -33,11 +33,7 @@ button{
     background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
     color:lightblue;
 }
-ul li{
-    list-style: none;
-    display: inline;
-    padding: 3px;
-}
+
 ul{
     width:100%;
     min-width:1240px ;
