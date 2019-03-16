@@ -12,8 +12,5 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-
 bigben: any=require("../../assets/bigben.png");
-  
-
 }
