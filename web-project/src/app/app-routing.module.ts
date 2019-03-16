@@ -14,7 +14,8 @@ import { ForumComponent } from './forum/forum.component';
 const routes: Routes = [
   {
     // path: 'faq', component: FaqComponent
-    path: 'education', component: EducationComponent
+    path: 'education', 
+    component: EducationComponent,
   },
   {
     path:'', component:HomeComponent
