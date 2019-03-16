@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+// declare var require: any;
 @Component({
   selector: 'app-materials',
   templateUrl: './materials.component.html',
@@ -11,5 +11,6 @@ export class MaterialsComponent implements OnInit {
 
   ngOnInit() {
   }
+  // testingVideo: any= require("../../assets/testVideo.mp4");
 
 }
