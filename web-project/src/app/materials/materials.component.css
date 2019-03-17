@@ -69,11 +69,13 @@
     min-width: 100%;
     min-height: 300px;
     display: flex;
-    /* overflow-x: hidden; */
 }
 .ty{
     min-width: 400px;
     margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #070a4ec2;
+    border: none;
 }
 #mBody::-webkit-scrollbar {
     display: none;
