@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {CommonModule} from '@angular/common';
-import {EducationComponent} from './education/education.component';
+import {EducationComponent} from './education-module/education/education.component';
 import { GuideComponent } from './guide/guide.component';
 
 import {HomeComponent} from './home/home.component';
@@ -14,7 +14,8 @@ import { ForumComponent } from './forum/forum.component';
 const routes: Routes = [
   {
     // path: 'faq', component: FaqComponent
-    path: 'education', component: EducationComponent
+    path: 'education', 
+    component: EducationComponent,
   },
   {
     path:'', component:HomeComponent

@@ -1,0 +1,44 @@
+/* ul{
+    width:100%;
+    min-width:1240px ;
+} */
+/* ul li{
+    list-style: none;
+    display: inline;
+    padding: 3px;
+} */
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 3px;
+}
+li button{
+    width:230px;
+    /* height: 40px;
+    border-radius: 10px;
+    border:1px darkblue solid;
+    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
+    color:lightblue; */
+}
+/* li button:hover{
+    background-color: rgba(137, 43, 226, 0.253)
+} */
+#articlesL, #speechPartsL,#sentencePartsL,#sentenceTypesL,#punctuationL{
+    visibility: hidden;
+}
+.content{
+    white-space: nowrap;
+    /* visibility: hidden; */
+}
+.list{
+    position: absolute;
+}
+.content{
+    position: absolute;
+    margin-top:80px;
+}
+div{
+    min-height: 700px;
+    /* border: 1px solid black; */
+}
+
