@@ -14,31 +14,30 @@ ul li{
 }
 li button{
     width:230px;
-    /* height: 40px;
-    border-radius: 10px;
-    border:1px darkblue solid;
-    background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
-    color:lightblue; */
 }
-/* li button:hover{
-    background-color: rgba(137, 43, 226, 0.253)
-} */
 #articlesL, #speechPartsL,#sentencePartsL,#sentenceTypesL,#punctuationL{
     visibility: hidden;
+    text-align: center;
 }
+
 .content{
     white-space: nowrap;
-    /* visibility: hidden; */
+    visibility: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgb(14, 13, 85);
+    border-radius: 5px;
+
 }
 .list{
     position: absolute;
 }
-.content{
-    position: absolute;
-    margin-top:80px;
-}
+
 div{
     min-height: 700px;
-    /* border: 1px solid black; */
+}
+#im{
+    position: relative;
+    margin-top:80px;
+    margin-left: 100px;
 }
 
