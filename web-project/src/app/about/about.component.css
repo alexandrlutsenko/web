@@ -1,0 +1,185 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,700';
+/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> */
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> */
+@import 'https://use.fontawesome.com/releases/v5.7.2/css/all.css';
+
+*{box-sizing:border-box}
+.maint {
+  min-height: 700px;
+  background: url(https://html5book.ru/wp-content/uploads/2017/04/photo-morning-rose.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  padding: 20px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  border: 10px solid yellow;
+}
+h1 { 
+  color: white;
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  transform: translate(-50%, -50%);
+
+  /* top: 90%;  */
+  top: 30px;
+  left: 50%;
+  position: relative;
+  letter-spacing: 5px;
+}
+h2 {
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  line-height: 1;
+}
+.share-block {
+  float: right;
+  padding-right: 15px;
+  line-height: 50px;
+}
+.share-block a {
+  color: #999;
+  display: inline-block;
+  margin-right: 7px;
+  transition: .4s linear;
+}
+.share-block a:hover {
+  color: white;
+}
+.container {  
+  width: 100%;
+  height: 100%;
+	-webkit-perspective: 1200;
+  perspective: 1200;
+  -moz-transform: perspective(1200px);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d; 
+  transform-style: preserve-3d;
+  position: relative;
+}
+.button {
+  text-decoration: none;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  line-height: 50px;
+  padding-left: 30px;
+  transition: .4s linear;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #CE1D5A;
+  border-right: 20px solid transparent;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid white;
+  border-right: 20px solid transparent;
+}
+.home:hover, .close:hover {
+  color: white;
+}
+.home, .close {
+  color: #999;
+  font-size: 20px;
+}
+.flipper {
+  border: 10px solid rgba(255,255,255,0.2);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: .7s linear;  
+}
+.front, .back {
+  font-family: 'Cabin', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  backface-visibility: hidden;
+}
+.front {
+  z-index: 2;
+  transform: rotateX(0deg);
+  border: 10px solid green;
+}
+.back {
+  transform: rotateX(-180deg);
+  color: white;
+  
+}
+.flipper:target {
+  transform: rotateX(180deg);
+}
+.inner {
+  /* position: relative; */
+  margin-top: 3em;
+  padding: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.description{
+    height: 80%;
+    /* min-height: 1000px; */
+    /* min-width: 500px; */
+}
+
+
+/* Ниже настройки для списков на странице */
+.aboutBorder{
+    list-style: none;
+    padding: 0;
+}
+.aboutBorder a{
+    color:white;
+}
+.aboutBorder li{
+    color: white;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #f05d22; 
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    width: 50%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s all linear;
+}
+.aboutBorder li:nth-child(2){border-color: #8bc63e;}
+.aboutBorder li:nth-child(3){border-color: #fcba30;}
+.aboutBorder li:nth-child(4){border-color: #1ccfc9;}
+.aboutBorder li:nth-child(5){border-color: #c72222;}
+.aboutBorder li:nth-child(6){border-color: #36119c;}
+.aboutBorder li:hover {border-left: 10px solid transparent;}
+.aboutBorder li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+.aboutBorder li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+.aboutBorder li:nth-child(3):hover {border-right: 10px solid #fcba30;}
+.aboutBorder li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+.aboutBorder li:nth-child(5):hover {border-right: 10px solid #c72222;}
+.aboutBorder li:nth-child(6):hover {border-right: 10px solid #36119c;}

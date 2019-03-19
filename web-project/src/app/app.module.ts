@@ -11,6 +11,9 @@ import { MaterialsComponent } from './materials/materials.component';
 import { ForumComponent } from './forum/forum.component';
 import { ContactComponent } from './contact/contact.component';
 import { EducationModuleModule } from './education-module/education-module.module';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import {AboutComponent} from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { EducationModuleModule } from './education-module/education-module.modul
     DictionaryComponent,
     MaterialsComponent,
     ForumComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
