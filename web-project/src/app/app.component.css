@@ -105,6 +105,7 @@ p img{
     height: 150px;
 }
 .settings {
+    visibility: hidden;
     background-color: #050724;
     z-index: 10;
     height: 42px;

@@ -12,10 +12,10 @@
       <p id="info">EasyEng - это сайт, который поможет Вам познакомиться с английским языком.<br> На нашем сайте Вы можете изучать язык, его историю, используя разного рода медиа, начиная с грамматических таблиц, и заканчивая фильмами на иностраннном языке</p>
     </div>
     <div class="config general">
-      <p><a routerLink="#">Настройки</a></p>
+      <p><a routerLink="" (click)="pref()">Настройки</a></p>
     </div>
-    <div class="settings general">
-        <select>
+    <div id="preference" class="settings general" >
+        <select (change)="colorChange($event)">
           <option disabled value="">Выберите цвет:</option>
           <option value="1">BLUE</option>
           <option value="2"> RED</option>
