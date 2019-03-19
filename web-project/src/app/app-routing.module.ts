@@ -9,6 +9,7 @@ import { DictionaryComponent } from './dictionary/dictionary.component';
 import { MaterialsComponent } from './materials/materials.component';
 import { ContactComponent } from './contact/contact.component';
 import { ForumComponent } from './forum/forum.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -35,6 +36,9 @@ const routes: Routes = [
   },
   {
     path: 'forum',component:ForumComponent
+  },
+  {
+    path: 'about', component: AboutComponent
   }
 ];
 
