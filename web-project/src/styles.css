@@ -23,6 +23,7 @@ li button{
     height: 40px;
     border-radius: 10px;
     border:1px darkblue solid;
+    background: -webkit-gradient(linear,left top, right top);
     background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
     color:lightblue;
 }
@@ -32,6 +33,10 @@ button{
     border:1px darkblue solid;
     background:linear-gradient(to right,rgba(18, 33, 117, 0.801),#03041fc2);
     color:lightblue;
+}
+button:hover,button:active,button:focus{
+    outline: none;
+    opacity: 0.8;
 }
 
 ul{

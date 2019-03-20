@@ -1,0 +1,192 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,700';
+/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> */
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+/* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> */
+@import 'https://use.fontawesome.com/releases/v5.7.2/css/all.css';
+
+*{box-sizing:border-box}
+.maint {
+  min-height: 600px;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  padding: 20px;
+  font-size: 16px;
+  overflow: hidden;
+  /* border: 10px solid yellow; */
+  color:rgb(43, 40, 40);
+}
+h1 { 
+  padding-left:80px;
+  /* color: white; */
+  font-size: 3em;
+  margin: 0;
+  margin-bottom:-20px;
+  transform: translate(-50%, -50%);
+  top: 30px;
+  left: 50%;
+  position: relative;
+  letter-spacing: 5px;
+}
+h2 {
+  font-size: 3em;
+  line-height: 1;
+  padding-left:80px;
+  margin-bottom:20px;
+}
+.share-block {
+  float: right;
+  padding-right: 15px;
+  line-height: 50px;
+  
+}
+.share-block a {
+  color:rgb(43, 40, 40);
+  display: inline-block;
+  margin-right: 7px;
+  transition: .4s linear;
+}
+.share-block a:hover {
+  color: darkgray;
+  text-decoration: none;
+}
+.container {  
+  width: 100%;
+  height: 100%;
+	-webkit-perspective: 1200;
+  perspective: 1200;
+  -moz-transform: perspective(1200px);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d; 
+  transform-style: preserve-3d;
+  position: relative;
+}
+.button {
+  text-decoration: none;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  line-height: 50px;
+  padding-left: 30px;
+  transition: .4s linear;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 30px solid rgb(26, 8, 107);
+  border-right: 30px solid transparent;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid darkgray;
+  border-right: 30px solid transparent;
+}
+.home:hover, .close:hover {
+  color: darkgray;
+}
+.home, .close {
+  color:rgb(43, 40, 40);
+  font-size: 20px;
+}
+.flipper {
+  border: 3px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 20px gray;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: .7s linear;  
+}
+.front, .back {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/back3.jpeg');
+  background-size: contain;
+  backface-visibility: hidden;
+}
+.front {
+  z-index: 2;
+  transform: rotateX(0deg);
+  /* border: 10px solid green; */
+}
+.back {
+  transform: rotateX(-180deg);
+  
+  
+}
+.flipper:target {
+  transform: rotateX(180deg);
+}
+.inner {
+  /* position: relative; */
+  margin-top: 3em;
+  padding: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.description{
+    height: 80%;
+    /* min-height: 1000px; */
+    /* min-width: 500px; */
+}
+
+
+/* Ниже настройки для списков на странице */
+.aboutBorder{
+    list-style: none;
+    margin-left:200px;
+}
+.aboutBorder a{
+  color:rgb(43, 40, 40);
+  font-weight: 800;
+}
+.aboutBorder a:hover{
+  text-decoration: none;
+  color:rgb(97, 95, 95);
+}
+.aboutBorder li{
+    padding: 7px 20px;
+    margin:20px;
+    border-radius: 5px;
+    border-left: 10px solid #cc0769; 
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+     -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    width: 65%;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: 0.5s all linear;
+}
+.aboutBorder li:nth-child(4){border-color: #76c015;}
+.aboutBorder li:nth-child(5){border-color: #fcba30;}
+.aboutBorder li:nth-child(2){border-color: #6b0f8f;}
+.aboutBorder li:nth-child(3){border-color: #c72a44;}
+.aboutBorder li:nth-child(6){border-color: #36119c;}
+.aboutBorder li:hover {border-left: 10px solid transparent;}
+.aboutBorder li:nth-child(1):hover {border-right: 10px solid #cc0769;}
+.aboutBorder li:nth-child(4):hover {border-right: 10px solid #76c015;}
+.aboutBorder li:nth-child(5):hover {border-right: 10px solid #fcba30;}
+.aboutBorder li:nth-child(2):hover {border-right: 10px solid #6b0f8f;}
+.aboutBorder li:nth-child(3):hover {border-right: 10px solid #c72a44;}
+.aboutBorder li:nth-child(6):hover {border-right: 10px solid #36119c;}
